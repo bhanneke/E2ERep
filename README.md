@@ -9,7 +9,7 @@ E2ERep takes a paper (DOI or PDF) and runs five deterministic stages: paper anal
 ```bash
 git clone https://github.com/bhanneke/E2ERep.git
 cd E2ERep
-cp env.example .env   # then fill in your API keys
+cp .env.example .env   # then fill in your API keys
 pip install -r requirements.txt
 python run.py --doi 10.xxxx/xxxxx
 ```
